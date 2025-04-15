@@ -1,23 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-*{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+.nav_bar {
+  width: 100%;
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 11px 0px 0 0px;
+  background-color: rgb(39, 39, 58);
+  color: white;
+}
+
+.nav_bar > .left {
+  display: flex;
+}
+
+.left input {
+  margin-inline: 11px;
+  width: 420px;
+  height: 33px;
+  border: none;
+  outline: none;
+  padding-left: 8px;
+  margin-top: 20px;
+  border-radius: 2px;
+  color: black;
+}
+
+
+
+.nav_bar > .right {
+  display: flex;
+}
+
+.right p {
+  margin-inline: 22px;
+}
+
+.right button {
+  margin-inline: 22px;
+  width: 80px;
+  height: 27px;
+  border: none;
+  border-radius: 2px;
+  background-color: rgb(228, 130, 146);
+  color: white;
+}
+
+.right i {
+  margin-inline: 22px;
+  font-size: 22px;
+}
+
+.sec-nav {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(183, 120, 38);
+  color: white;
+  justify-content: space-between;
 
 }
 
-.nav_bar{
+.sec-nav .s-left {
+  display: flex;
+  
+}
+
+.sec-nav .s-right {
       display: flex;
-      justify-content: space-around;
-      align-items: center;
-      width: 100%;
-      height: 64px;
-      background-color: rgb(255, 255, 255);
+      
+    }
+
+.s-left p {
+      margin-inline-start: 20px;
 }
 
-.search_input{
-      width: 80px;
-      height: 60px;
+.s-right p{
+      margin-inline-start: 20px;
 }
+
+.main img{
+      width: 100%;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      margin-top:10px ;
+     
+}
+
+.container h2 {
+      margin-left: 30px;
+}
+
+.container .cards{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+      margin: 10px 30px 0px 30px;
+      
+}
+
+.cards img {
+      width: 100%;
+      border-radius: 5px;
+}
+
